@@ -1,0 +1,44 @@
+.thead-gradient-blue {
+  background: linear-gradient(to bottom right, #005dba, #8a929b, #0064ff, #0057ff, #004aff);
+  color: white;
+  
+}
+
+.table {
+  background-color: #fff;
+  border-color: #0186c8bb;
+  border-radius: 10px; /* add rounded corners */
+  background-image: url("C:\Users\Asus\Downloads\gradient.png");
+  
+}
+
+
+.table thead th {
+  background-color: #0186c8bb;
+  background-image: url("C:\Users\Asus\Downloads\gradient.png");
+  color: #fff;
+  border-color: #0186c8bb;
+   /* add rounded corners to top of header row */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(219, 230, 229, 0.919);
+  font-size: 18px;
+  
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: rgba(9, 92, 164, 0.349);
+  background-image: url("C:\Users\Asus\Downloads\gradient.png");
+  font-size: 18px;
+}
+
+button{
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #004cffe3;
+}
+
+#delbtn{
+  background-color: rgba(255, 0, 0, 0.929);
+}
