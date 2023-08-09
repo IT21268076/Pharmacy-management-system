@@ -1,0 +1,96 @@
+.form-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 1, 43, 0.3), 0 0 10px rgba(0, 1, 28, 0.363);
+    justify-content: flex-start;
+    
+  }
+  
+  .form-title {
+    margin-top: 0;
+    width: 500px;
+    align-content: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: #00323b61;
+    
+    
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 18px;
+    color: #010f34;
+    text-align: justify;
+  }
+
+  
+  
+  .form input,
+  .form select,
+  .form textarea {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+ #up{
+  margin-bottom: -22px;
+  text-align: left;
+ }
+
+ #up1{
+  text-align: left;
+  margin-left: 0px;
+ }
+
+  #healthIssue,
+  #gender,
+  #email{
+    
+    width: 300px;
+    
+  }
+
+  .form textarea {
+    height: 150px;
+    margin-top: 1px;
+  }
+
+  .alert {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+ 

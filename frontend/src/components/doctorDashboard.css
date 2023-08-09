@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /* ConsultForm Styles */
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .form-title {
+    margin-top: 0;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form label {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .form input,
+  .form textarea,
+  .form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 5' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 5L0 0h10z'/%3E%3C/svg%3E");
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* DoctorDashboard Styles */
+  .dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .dashboard-title {
+    margin-top: 0;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dashboard-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dashboard-table td:nth-child(1),
+  .dashboard-table th:nth-child(1) {
+    width: 10%;
+  }
+  
+  .dashboard-table td:nth-child(2),
+  .dashboard-table th:nth-child(2) {
+    width: 20%;
+  }
+  
+  .dashboard-table td:nth-child(3),
+  .dashboard-table th:nth-child(3) {
+    width: 10%;
+  }
+  
+  .dashboard-table td:nth-child(4),
+  .dashboard-table th:nth-child(4) {
+    width: 20%;
+  }
+  
+  .dashboard-table td:nth-child(5),
+  .dashboard-table th:nth-child(5) {
+    width: 40%;
+  }
+  
+  .dashboard-table td:nth-child(6),
+  .dashboard-table th:nth-child(6) {
+    width: 20%;
+  }
+  
+  .dashboard-table textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .dashboard-table button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    }
+    
+    .dashboard-table button:hover {
+    background-color: #0069d9;
+    }
+    
+    .dashboard-table .form-group {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    
+    
+    
+    

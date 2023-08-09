@@ -1,0 +1,108 @@
+.form-container {
+  
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  
+  width: 700px;
+  
+  border-radius: 25px;
+
+  background-image: url("C:\Users\Asus\Downloads\gradient.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0, 1, 43, 0.3), 0 0 10px rgba(0, 1, 28, 0.363);
+  border-color: rgba(16, 107, 177, 0.57);
+}
+
+form{
+  padding: 20px;
+}
+
+.container-fluid {
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #afddf515;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-container input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.form-container button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  
+  
+}
+
+
+.profile-container h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.profile-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-container p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.status-container {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
+
+#searchLabel{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #215de0ec;
+  color: #fff;
+}
+
